@@ -1,3 +1,3 @@
  # smoelenboek
 
-Senna blijf hier eens van af
+Senna blijf hier eens van af nee homo
