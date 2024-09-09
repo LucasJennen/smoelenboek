@@ -1,3 +1,3 @@
  # smoelenboek
 
-ik ben gay met fedde timmermans
+Senna blijf hier eens van af
