@@ -1,0 +1,9 @@
+body {background-color: blue;}
+
+#Lucas {
+    width: 350px;
+    height: 300px;
+    position: relative;
+    left: 450px;
+    border-radius: 10px;
+}
