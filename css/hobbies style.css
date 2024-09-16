@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+h1 {
+    color: #333;
+}
+ul {
+    list-style-type: none; /* Remove default bullets */
+    padding: 0;
+}
+li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 10px;
+}
+img {
+    width: 120px; /* Adjust size as needed */
+    height: 120px; /* Adjust size as needed */
+    margin-right: 15px;
+    border-radius: 8px;
+    object-fit: cover; /* Ensures images cover the box */
+}
+
+#video {
+    width: 120px;
+    Height: 12px;
+    Margin-right: 15px;
+    Border-Radius: 8px;
+    object-fit: cover;
+}
+
+.hobby-description {
+    font-size: 18px;
+    color: #555;
+}
