@@ -1,9 +1,20 @@
+#mySidenav a {
+    position: relative; /* Position them relative to the browser window */
+    left: 0px; /* Position them outside of the screen */
+    padding: 15px; /* 15px padding */
+    width: 100px; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    font-size: 20px; /* Increase font size */
+    color: black; /* White text color */
+    font: bolder;
+    border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+  }
+
+
 body {background-color: blue;}
 
 #Lucas {
-    width: 350px;
-    height: 300px;
+    float:right;
     position: relative;
-    left: 450px;
     border-radius: 10px;
 }
