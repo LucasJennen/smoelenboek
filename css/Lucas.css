@@ -5,7 +5,7 @@
     width: 100px; /* Set a specific width */
     text-decoration: none; /* Remove underline */
     font-size: 20px; /* Increase font size */
-    color: black; /* White text color */
+    color: red; /* White text color */
     font: bolder;
     border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
   }
@@ -17,4 +17,19 @@ body {background-color: blue;}
     float:right;
     position: relative;
     border-radius: 10px;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;  
 }
