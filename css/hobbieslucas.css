@@ -1,0 +1,44 @@
+#mySidenav a {
+    position: relative; /* Position them relative to the browser window */
+    left: 0px; /* Position them outside of the screen */
+    padding: 15px; /* 15px padding */
+    width: 100px; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    font-size: 20px; /* Increase font size */
+    color: red; /* White text color */
+    font: bolder;
+    border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+  }
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: blue;
+}
+h1 {
+    color: #333;
+}
+ul {
+    list-style-type: none; /* Remove default bullets */
+    padding: 0;
+}
+li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: red;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 10px;
+}
+img {
+    width: 120px; /* Adjust size as needed */
+    height: 120px; /* Adjust size as needed */
+    margin-right: 15px;
+    border-radius: 8px;
+    object-fit: cover; /* Ensures images cover the box */
+}
+.hobby-description {
+    font-size: 18px;
+    color: #555;
+}
