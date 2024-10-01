@@ -4,8 +4,51 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #b9e1fb;
 }
+.container {
+    display: flex;
+}
+
+.sidebar {
+    position: center;
+    width: 250px;
+    background-color: #009dff;
+    color: #000000;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.sidebar h2 {
+    text-align: center;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 20px 0;
+}
+
+.sidebar ul li a {
+    color: #000000;
+    text-decoration: none;
+    display: flex;
+    padding: 1px;
+    border-radius: 10px;
+}
+
+.sidebar ul li a:hover {
+    background-color: #575757;
+}
+
+.content {
+    padding: 20px;
+    flex: 1;
+}
+
 
 header {
     background: #009dff;
@@ -17,6 +60,18 @@ header {
 header h1 {
     margin: 0;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 60px;
+  } 
+  
+  li a {
+    display: block;
+    background-color: #dddddd;
+  }
 
 main {
     padding: 20px;
